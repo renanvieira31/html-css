@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.faded{
+    padding: 350px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,#e4ab26, #c1ae24,rgb(189, 241, 243), #49b6e4, #1a62df);
+    background-size: 500% 100%;
+    animation: waves 3s infinite alternate-reverse;
+    background-attachment: fixed;
+    border-radius: 0px 15px 1px;
+    box-shadow: #545d61 5px 5px 5px;
+}
+
+@keyframes waves {
+
+0%{background-position-x: 0%;}
+100%{background-position-x: 100%;}
+
+}

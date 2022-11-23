@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando mídias.</title>
+</head>
+
+
+<body>
+
+    <h1>Imagens Dinâmicas</h1>
+    <p>Teste a imagem abaixo em janelas de tamanhos diferentes.</p>
+
+    <picture>
+
+<source media="(max-width: 750px)" srcset="tamp.png" type="image/png">    
+<source media="(max-width: 1050px)" srcset="tamm.png" type="image/png">
+<img src="tamg.png" alt="img flex">
+
+    </picture>
+
+<h1>Reproduzindo aúdio.</h1>
+<p>Vamos reproduzir um audio em nosso site.</p>
+
+<audio src="happy-mistake.mp3" controls autoplay></audio>
+ 
+<p>E agora um podcast!</p>
+
+<audio preload="metadata" autoplay controls loop>
+
+<source src="guanacast-33.mp3" type="audio/mpeg">
+<source src="guanacast-33.ogg" type="audio/ogg">
+<source src="guanacast-33.wav" type="audio/wav">
+<p>Infelizmente seu navegador não foi capaz de repoduzir esse aúdio.</p>
+<P>Deseja baixá-lo?</P>
+<p> <a href="guanacast-33.mp3"> Clique aqui para iniciar o download.</a> </p>
+
+</audio>
+
+</body>
+</html>

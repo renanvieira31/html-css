@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color:lightsteelblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+    background-color: darkgoldenrod;
+}
+
+h2{
+color: darkred;
+background-color: blueviolet;
+}
+
+h3{
+color: darkslateblue;
+}
+
+h4{
+    background-color: deeppink;
+}
+
+p{
+text-align: justify;
+}
