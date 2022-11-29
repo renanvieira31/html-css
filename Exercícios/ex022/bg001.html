@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing background images</title>
+
+    <style>
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+            div.quad{
+
+                border: 1px solid black;
+                width: 300px;
+                height: 300px;
+                display: inline-block;
+                border-radius: 5px;
+                box-shadow: 1px 1px 3px black;
+            }
+
+            div#q1{
+
+                background-color: aqua;
+            }
+
+            div#q2{
+
+                background-image: linear-gradient(to bottom, red, rgb(123, 18, 204));
+            }
+
+            div#q3{
+
+                background-image: url(imagens/pattern003.png);
+            
+
+            }
+
+    </style>
+</head>
+<body>
+
+        <div class="quad" id="q1">
+
+        </div>
+
+            <div class="quad" id="q2">
+
+            </div>
+
+                <div class="quad" id="q3">
+
+
+                </div>
+    
+</body>
+</html>
